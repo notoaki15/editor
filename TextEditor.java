@@ -10,6 +10,7 @@ public class TE extends JFrame{
 		JTextArea area = new JTextArea();
 		area.setBackground(Color.black);
 		area.setForeground(Color.green);
+		area.setLineWrap(true);
 		
 		
 		JFrame frame = new JFrame();
